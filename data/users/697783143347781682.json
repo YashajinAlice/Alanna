@@ -10,12 +10,12 @@
       "server-info": 2,
       "user-info": 2,
       "stats": 2,
-      "help": 4,
+      "help": 5,
       "settings": 4,
       "ping": 1,
       "tickets": 1,
-      "bot-info": 1
+      "bot-info": 7
     },
-    "lastSeen": "2025-03-23T03:21:03.337Z"
+    "lastSeen": "2025-03-23T06:44:26.266Z"
   }
 }

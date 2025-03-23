@@ -13,17 +13,17 @@
   "customCommands": [],
   "stats": {
     "memberCount": 31,
-    "messageCount": 9,
+    "messageCount": 13,
     "commandsUsed": {
       "modal-example": 1,
       "server-info": 1,
       "user-info": 1,
       "stats": 1,
-      "help": 3,
+      "help": 4,
       "settings": 2,
       "ping": 1,
       "tickets": 1,
-      "bot-info": 1
+      "bot-info": 4
     }
   },
   "tickets": {
@@ -34,7 +34,15 @@
     ],
     "dmNotifications": true,
     "transcriptChannel": "1254453106159124631",
-    "counter": 4,
-    "activeTickets": {}
+    "counter": 5,
+    "activeTickets": {
+      "7dd226ce-7cbe-4069-8ff2-1bba19886462": {
+        "id": "7dd226ce-7cbe-4069-8ff2-1bba19886462",
+        "number": 5,
+        "channelId": "1353233883025379368",
+        "creatorId": "697783143347781682",
+        "createdAt": "2025-03-23T05:08:18.329Z"
+      }
+    }
   }
 }

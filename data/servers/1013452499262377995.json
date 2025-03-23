@@ -13,7 +13,9 @@
   "customCommands": [],
   "stats": {
     "memberCount": 0,
-    "messageCount": 7,
-    "commandsUsed": {}
+    "messageCount": 58,
+    "commandsUsed": {
+      "bot-info": 1
+    }
   }
 }

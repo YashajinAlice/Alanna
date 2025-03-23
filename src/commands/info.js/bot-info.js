@@ -41,7 +41,8 @@ module.exports = {
         { name: "記憶體", value: osInfo.memory, inline: true },
         { name: "指令數量", value: `${interaction.client.commands.size}`, inline: true },
         { name: "語言", value: `${Object.keys(i18n.languages).join(", ")}`, inline: true },
-        { name: "開發者", value: "fulin", inline: true }
+        { name: "開發者", value: "芙檁", inline: true },
+        { name: "支援Wiki", value: "[點我](https://vsgm9gsdom9o.sg.larksuite.com/wiki/Klg5wIWA6isTL6kHEMMlnH5OgIf?from=from_copylink)", inline: true }
       )
       .setFooter({ text: `ID: ${interaction.client.user.id} • 創建於 ${interaction.client.user.createdAt.toLocaleDateString()}` })
       .setTimestamp()

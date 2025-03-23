@@ -1,0 +1,19 @@
+{
+  "name": "yanala_bot",
+  "version": "0.0.0.11",
+  "version2": "BATA",
+  "author": {
+    "name": "fulin"
+  },
+  "scripts": {
+    "dev": "nodemon src/yanala.js",
+    ".": "node src/yanala.js",
+    "..": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.1.0"
+  }
+}

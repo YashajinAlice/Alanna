@@ -1,0 +1,40 @@
+{
+  "id": "1186562349507813446",
+  "createdAt": "2025-03-23T02:15:13.294Z",
+  "settings": {
+    "language": "zh-TW",
+    "prefix": "!",
+    "welcomeChannel": null,
+    "welcomeMessage": "歡迎 {user} 加入伺服器！",
+    "logChannel": "1199004794468175972",
+    "moderationRoles": [],
+    "autoRoles": []
+  },
+  "customCommands": [],
+  "stats": {
+    "memberCount": 31,
+    "messageCount": 9,
+    "commandsUsed": {
+      "modal-example": 1,
+      "server-info": 1,
+      "user-info": 1,
+      "stats": 1,
+      "help": 3,
+      "settings": 2,
+      "ping": 1,
+      "tickets": 1,
+      "bot-info": 1
+    }
+  },
+  "tickets": {
+    "enabled": true,
+    "category": "1353193494105165885",
+    "supportRoles": [
+      "1199012806050197637"
+    ],
+    "dmNotifications": true,
+    "transcriptChannel": "1254453106159124631",
+    "counter": 4,
+    "activeTickets": {}
+  }
+}

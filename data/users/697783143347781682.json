@@ -1,0 +1,21 @@
+{
+  "id": "697783143347781682",
+  "createdAt": "2025-03-23T02:15:13.295Z",
+  "settings": {
+    "language": "zh-TW"
+  },
+  "stats": {
+    "commandsUsed": {
+      "modal-example": 1,
+      "server-info": 2,
+      "user-info": 2,
+      "stats": 2,
+      "help": 4,
+      "settings": 4,
+      "ping": 1,
+      "tickets": 1,
+      "bot-info": 1
+    },
+    "lastSeen": "2025-03-23T03:21:03.337Z"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "906520813707075634",
+  "createdAt": "2025-03-23T02:24:25.512Z",
+  "settings": {
+    "language": "zh-TW",
+    "prefix": "!",
+    "welcomeChannel": "906520813707075637",
+    "welcomeMessage": "歡迎 {user} 加入酒館！！\n×\n• 第一步 請至 https://discord.com/channels/906520813707075634/909259324885467157 詳閱規則🧾\n-\n• 第二步 再至 https://discord.com/channels/906520813707075634/1122377351775404193 進行驗證✅\n-\n• 第三步 最後 https://discord.com/channels/906520813707075634/986046493028909086 領取身份🔖\n-\n• 領完身份就可以到 https://discord.com/channels/906520813707075634/908336680333877268 登記自己的個資啦~📝\n\n祝大家都能有好的聊天體驗w\n要記得來聊天喔！w",
+    "logChannel": null,
+    "moderationRoles": [],
+    "autoRoles": []
+  },
+  "customCommands": [],
+  "stats": {
+    "memberCount": 1047,
+    "messageCount": 78,
+    "commandsUsed": {
+      "help": 2,
+      "tickets": 4,
+      "server-info": 1,
+      "user-info": 1,
+      "stats": 1,
+      "settings": 3
+    }
+  },
+  "tickets": {
+    "enabled": true,
+    "category": "1030405512694599750",
+    "supportRoles": [
+      "909394679169155153"
+    ],
+    "dmNotifications": false,
+    "transcriptChannel": "1027709141243940955",
+    "counter": 2,
+    "activeTickets": {}
+  }
+}

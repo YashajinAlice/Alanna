@@ -1,0 +1,114 @@
+{
+    "PING_COMMAND": {
+      "RESPONSE": "Pong!"
+    },
+    "GENERAL": {
+      "ERROR": "An error occurred!",
+      "SUCCESS": "Operation completed successfully!",
+      "COMMAND_ERROR": "An error occurred while executing this command!",
+      "PERMISSION_DENIED": "You don't have permission to perform this action!",
+      "UNKNOWN_COMMAND": "Unknown command!",
+      "UNKNOWN_SUBCOMMAND": "Unknown subcommand!"
+    },
+    "HELP_COMMAND": {
+      "TITLE": "Available Commands",
+      "DESCRIPTION": "Here are all available commands:",
+      "COMMAND_NOT_FOUND": "Command `{command}` not found.",
+      "COMMAND_DETAIL_TITLE": "Command: /{command}",
+      "OPTIONS": "Options",
+      "REQUIRED": "Required",
+      "YES": "Yes",
+      "NO": "No",
+      "FOOTER": "Use /help [command name] for details about a specific command"
+    },
+    "USER_INFO_COMMAND": {
+      "TITLE": "User Info: {username}",
+      "USERNAME": "Username",
+      "USER_ID": "User ID",
+      "ACCOUNT_CREATED": "Account Created",
+      "JOINED_SERVER": "Joined Server",
+      "NICKNAME": "Nickname",
+      "ROLES": "Roles",
+      "NONE": "None"
+    },
+    "SERVER_INFO_COMMAND": {
+      "TITLE": "Server Info: {server_name}",
+      "SERVER_NAME": "Server Name",
+      "SERVER_ID": "Server ID",
+      "OWNER": "Owner",
+      "CREATED": "Created",
+      "MEMBERS": "Members",
+      "BOOST_LEVEL": "Boost Level",
+      "BOOST_COUNT": "Boost Count",
+      "VERIFICATION_LEVEL": "Verification Level",
+      "CHANNELS": "Channels",
+      "ROLES": "Roles",
+      "EMOJIS": "Emojis",
+      "STICKERS": "Stickers",
+      "VERIFICATION_LEVELS": {
+        "0": "None",
+        "1": "Low",
+        "2": "Medium",
+        "3": "High",
+        "4": "Very High"
+      },
+      "BOOST_TIERS": {
+        "0": "None",
+        "1": "Tier 1",
+        "2": "Tier 2",
+        "3": "Tier 3"
+      }
+    },
+    "MODAL_EXAMPLE": {
+      "TITLE": "Example Form",
+      "COLOR_LABEL": "What's your favorite color?",
+      "HOBBIES_LABEL": "What are your hobbies?",
+      "RESPONSE": "Your favorite color is {color}, and your hobbies include {hobbies}!"
+    },
+    "SETTINGS_COMMAND": {
+      "TITLE": "Server Settings",
+      "DESCRIPTION": "Here are the current settings for **{server_name}**:",
+      "LANGUAGE": "Language",
+      "PREFIX": "Prefix",
+      "WELCOME_CHANNEL": "Welcome Channel",
+      "WELCOME_MESSAGE": "Welcome Message",
+      "LOG_CHANNEL": "Log Channel",
+      "NOT_SET": "Not Set",
+      "LANGUAGE_UPDATED": "Server language has been set to: {language}",
+      "WELCOME_UPDATED": "Welcome message has been set to display in {channel} channel:\n{message}",
+      "LOG_UPDATED": "Log channel has been set to: {channel}",
+      "FOOTER": "Server ID: {server_id}"
+    },
+    "AUTOROLE_COMMAND": {
+      "TITLE": "Auto Role List",
+      "DESCRIPTION": "The following roles will be automatically assigned to new members:",
+      "ROLES": "Roles",
+      "NO_AUTOROLES": "No auto roles are currently set up.",
+      "ROLE_ADDED": "{role} has been added as an auto role. New members will automatically receive this role.",
+      "ROLE_REMOVED": "{role} has been removed from the auto role list.",
+      "ROLE_ALREADY_ADDED": "{role} is already an auto role.",
+      "ROLE_NOT_FOUND": "{role} is not an auto role.",
+      "NO_PERMISSION": "I don't have permission to assign the {role} role because it's positioned higher than or equal to my highest role.",
+      "FOOTER": "Server: {server_name}"
+    },
+    "STATS_COMMAND": {
+      "TITLE": "Statistics for {server_name}",
+      "MEMBER_COUNT": "Member Count",
+      "MESSAGE_COUNT": "Message Count",
+      "COMMAND_COUNT": "Command Usage Count",
+      "TOP_COMMANDS": "Most Used Commands",
+      "NO_DATA": "No data available",
+      "FOOTER": "Server ID: {server_id}"
+    },
+    "WELCOME": {
+      "TITLE": "Welcome to {server_name}!",
+      "FOOTER": "Member #{member_count}"
+    },
+    "LANGUAGE_COMMAND": {
+      "SERVER_UPDATED": "Server language has been set to: {language}",
+      "USER_UPDATED": "Your language has been set to: {language}",
+      "FAILED": "Failed to set language: {language}"
+    }
+  }
+  
+  

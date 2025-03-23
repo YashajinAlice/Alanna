@@ -1,0 +1,19 @@
+{
+  "id": "1013452499262377995",
+  "createdAt": "2025-03-23T02:17:27.918Z",
+  "settings": {
+    "language": "zh-TW",
+    "prefix": "!",
+    "welcomeChannel": null,
+    "welcomeMessage": "歡迎 {user} 加入伺服器！",
+    "logChannel": null,
+    "moderationRoles": [],
+    "autoRoles": []
+  },
+  "customCommands": [],
+  "stats": {
+    "memberCount": 0,
+    "messageCount": 7,
+    "commandsUsed": {}
+  }
+}

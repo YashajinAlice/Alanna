@@ -1,0 +1,203 @@
+{
+  "PING_COMMAND": {
+    "RESPONSE": "嗶嗶！"
+  },
+  "GENERAL": {
+    "ERROR": "發生錯誤！",
+    "SUCCESS": "操作成功完成！",
+    "COMMAND_ERROR": "執行指令時發生錯誤！",
+    "PERMISSION_DENIED": "您沒有權限執行此操作！",
+    "UNKNOWN_COMMAND": "未知的指令！",
+    "UNKNOWN_SUBCOMMAND": "未知的子指令！"
+  },
+  "HELP_COMMAND": {
+    "TITLE": "可用指令",
+    "DESCRIPTION": "以下是所有可用的指令：",
+    "COMMAND_NOT_FOUND": "找不到指令 `{command}`。",
+    "COMMAND_DETAIL_TITLE": "指令：/{command}",
+    "OPTIONS": "選項",
+    "REQUIRED": "必填",
+    "YES": "是",
+    "NO": "否",
+    "FOOTER": "使用 /help [指令名稱] 獲取特定指令的詳細信息"
+  },
+  "USER_INFO_COMMAND": {
+    "TITLE": "用戶信息：{username}",
+    "USERNAME": "用戶名",
+    "USER_ID": "用戶ID",
+    "ACCOUNT_CREATED": "帳號創建於",
+    "JOINED_SERVER": "加入伺服器於",
+    "NICKNAME": "暱稱",
+    "ROLES": "角色",
+    "NONE": "無"
+  },
+  "SERVER_INFO_COMMAND": {
+    "TITLE": "伺服器信息：{server_name}",
+    "SERVER_NAME": "伺服器名稱",
+    "SERVER_ID": "伺服器ID",
+    "OWNER": "擁有者",
+    "CREATED": "創建於",
+    "MEMBERS": "成員數",
+    "BOOST_LEVEL": "加成等級",
+    "BOOST_COUNT": "加成數量",
+    "VERIFICATION_LEVEL": "驗證等級",
+    "CHANNELS": "頻道數",
+    "ROLES": "角色數",
+    "EMOJIS": "表情數",
+    "STICKERS": "貼圖數",
+    "VERIFICATION_LEVELS": {
+      "0": "無",
+      "1": "低",
+      "2": "中",
+      "3": "高",
+      "4": "極高"
+    },
+    "BOOST_TIERS": {
+      "0": "無等級",
+      "1": "等級 1",
+      "2": "等級 2",
+      "3": "等級 3"
+    }
+  },
+  "BOT_INFO_COMMAND": {
+    "TITLE": "{bot_name} 機器人資訊",
+    "VERSION": "版本",
+    "DISCORD_JS": "Discord.js",
+    "NODE_JS": "Node.js",
+    "UPTIME": "運行時間",
+    "SERVERS": "伺服器數量",
+    "USERS": "用戶數量",
+    "SYSTEM": "系統",
+    "CPU": "CPU",
+    "MEMORY": "記憶體",
+    "COMMANDS": "指令數量",
+    "LANGUAGES": "語言",
+    "DEVELOPER": "開發者",
+    "FOOTER": "ID: {bot_id} • 創建於 {created_at}",
+    "RECENT_UPDATES": "近期更新"
+  },
+  "MODAL_EXAMPLE": {
+    "TITLE": "範例表單",
+    "COLOR_LABEL": "你喜歡什麼顏色？",
+    "HOBBIES_LABEL": "你有什麼興趣愛好？",
+    "RESPONSE": "你喜歡的顏色是 {color}，你的興趣愛好包括 {hobbies}！"
+  },
+  "SETTINGS_COMMAND": {
+    "TITLE": "伺服器設置",
+    "DESCRIPTION": "以下是 **{server_name}** 的當前設置：",
+    "LANGUAGE": "語言",
+    "PREFIX": "前綴",
+    "WELCOME_CHANNEL": "歡迎頻道",
+    "WELCOME_MESSAGE": "歡迎訊息",
+    "LOG_CHANNEL": "日誌頻道",
+    "NOT_SET": "未設置",
+    "LANGUAGE_UPDATED": "伺服器語言已設置為: {language}",
+    "WELCOME_UPDATED": "歡迎訊息已設置為在 {channel} 頻道顯示:\n{message}",
+    "LOG_UPDATED": "日誌頻道已設置為: {channel}",
+    "FOOTER": "伺服器 ID: {server_id}"
+  },
+  "AUTOROLE_COMMAND": {
+    "TITLE": "自動角色列表",
+    "DESCRIPTION": "以下角色將自動分配給新加入的成員：",
+    "ROLES": "角色",
+    "NO_AUTOROLES": "目前沒有設置任何自動角色。",
+    "ROLE_ADDED": "已將 {role} 添加為自動角色。新成員加入時將自動獲得此角色。",
+    "ROLE_REMOVED": "已將 {role} 從自動角色列表中移除。",
+    "ROLE_ALREADY_ADDED": "{role} 已經是自動角色了。",
+    "ROLE_NOT_FOUND": "{role} 不是自動角色。",
+    "NO_PERMISSION": "我沒有權限分配 {role} 角色，因為它的位置高於或等於我的最高角色。",
+    "FOOTER": "伺服器: {server_name}"
+  },
+  "STATS_COMMAND": {
+    "TITLE": "{server_name} 的統計信息",
+    "MEMBER_COUNT": "成員數量",
+    "MESSAGE_COUNT": "訊息數量",
+    "COMMAND_COUNT": "命令使用次數",
+    "TOP_COMMANDS": "最常用的命令",
+    "NO_DATA": "尚無數據",
+    "FOOTER": "伺服器 ID: {server_id}"
+  },
+  "WELCOME": {
+    "TITLE": "歡迎加入 {server_name}！",
+    "FOOTER": "成員 #{member_count}"
+  },
+  "LANGUAGE_COMMAND": {
+    "SERVER_UPDATED": "伺服器語言已設置為: {language}",
+    "USER_UPDATED": "您的語言已設置為: {language}",
+    "FAILED": "無法設置語言: {language}"
+  },
+  "TICKETS_COMMAND": {
+    "SETUP_SUCCESS": "票口系統已設置成功！訊息已發送到 {channel}。",
+    "NOT_TICKET_CHANNEL": "此命令只能在票口頻道中使用。",
+    "SPECIFY_USER_OR_ROLE": "請指定要添加的用戶或角色。",
+    "USER_ADDED": "已將 {user} 添加到此票口。",
+    "ROLE_ADDED": "已將 {role} 角色添加到此票口。",
+    "CANNOT_REMOVE_CREATOR": "不能從票口中移除創建者。",
+    "CANNOT_REMOVE_SUPPORT": "不能從票口中移除支援角色。",
+    "USER_REMOVED": "已將 {user} 從此票口移除。",
+    "ROLE_REMOVED": "已將 {role} 角色從此票口移除。",
+    "CLOSING": "此票口正在關閉中... 原因: {reason}",
+    "SETTINGS": {
+      "TITLE": "票口系統設置",
+      "STATUS": "狀態",
+      "ENABLED": "啟用",
+      "DISABLED": "禁用",
+      "DM_NOTIFICATIONS": "DM通知",
+      "TICKET_CATEGORY": "票口類別",
+      "SUPPORT_ROLES": "支援角色",
+      "TRANSCRIPT_CHANNEL": "記錄頻道",
+      "ACTIVE_TICKETS": "活動票口數量",
+      "FOOTER": "使用 /tickets settings 修改設置",
+      "UPDATED": "票口系統設置已更新：",
+      "DM_UPDATED": "- DM通知: {status}",
+      "TRANSCRIPT_UPDATED": "- 記錄頻道: {channel}",
+      "ROLE_ADDED": "- 已添加支援角色: {role}",
+      "ROLE_EXISTS": "- {role} 已經是支援角色",
+      "NO_CHANGES": "未進行任何設置更改。"
+    },
+    "CREATE": {
+      "SYSTEM_DISABLED": "票口系統目前未啟用。",
+      "EXISTING_TICKET": "您已經有一個活動票口: {channel}",
+      "CATEGORY_NOT_FOUND": "票口類別不存在。請聯繫伺服器管理員。",
+      "ERROR": "創建票口時發生錯誤。請稍後再試或聯繫伺服器管理員。",
+      "SUCCESS": "您的票口已創建: {channel}"
+    },
+    "CLOSE": {
+      "CONFIRM_TITLE": "確認關閉票口",
+      "CONFIRM_DESCRIPTION": "您確定要關閉此票口嗎？此操作無法撤銷。",
+      "CONFIRM_BUTTON": "確認關閉",
+      "CANCEL_BUTTON": "取消",
+      "CANCELLED": "已取消關閉票口。",
+      "TIMEOUT": "關閉票口操作已超時。",
+      "ERROR": "關閉票口時發生錯誤。請稍後再試或使用 `/tickets close` 命令。",
+      "NOT_TICKET": "此頻道不是有效的票口。",
+      "MODAL_TITLE": "關閉票口",
+      "REASON_LABEL": "關閉原因",
+      "REASON_PLACEHOLDER": "請輸入關閉此票口的原因..."
+    },
+    "TRANSCRIPT": {
+      "TITLE": "票口記錄 #{number}",
+      "CREATOR": "創建者: {user}",
+      "CLOSED_BY": "關閉者: {user}",
+      "REASON": "關閉原因: {reason}",
+      "SAVE_BUTTON": "儲存對話紀錄",
+      "SAVED_SUCCESS": "票口對話記錄已發送到您的私訊。",
+      "SAVED_ERROR": "儲存對話記錄時發生錯誤。請稍後再試。",
+      "DM_ERROR": "無法發送私訊。請確保您已開啟伺服器成員的私訊權限。",
+      "SERVER": "伺服器: {server}",
+      "CHANNEL": "頻道: {channel}"
+    },
+    "DM": {
+      "CREATED_TITLE": "票口已創建",
+      "CREATED_DESCRIPTION": "您在 {server} 創建了一個票口。\n請前往 {channel} 查看。",
+      "CLOSED_TITLE": "您的票口已關閉",
+      "CLOSED_DESCRIPTION": "您在 {server} 的票口 #{number} 已被 {user} 關閉。\n\n原因: {reason}"
+    },
+    "WELCOME": {
+      "TITLE": "票口 #{number}",
+      "DESCRIPTION": "歡迎 {user}！請描述您需要幫助的問題，我們的工作人員會盡快回應您。",
+      "CLOSE_BUTTON": "關閉票口"
+    }
+  }
+}
+

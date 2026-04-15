@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "discord.js": "^14.18.0",
-    "dotenv": "^16.4.7",
+    "dotenv": "^17.0.0",
     "nodemon": "^3.1.9",
     "uuid": "^11.1.0"
   }
